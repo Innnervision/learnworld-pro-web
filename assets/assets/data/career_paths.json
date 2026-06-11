@@ -1,0 +1,49 @@
+{
+  "career_paths": [
+    {
+      "id": "software_engineer",
+      "name": "Software Engineer",
+      "description": "Design and develop software applications",
+      "required_skills": ["programming", "algorithms", "data_structures", "software_design"],
+      "average_salary": "$120,000",
+      "growth_rate": "22%",
+      "recommended_courses": ["CS101", "DS201", "SE301"]
+    },
+    {
+      "id": "data_scientist",
+      "name": "Data Scientist",
+      "description": "Analyze and interpret complex data",
+      "required_skills": ["statistics", "machine_learning", "python", "data_visualization"],
+      "average_salary": "$130,000",
+      "growth_rate": "35%",
+      "recommended_courses": ["STAT101", "ML201", "DV301"]
+    },
+    {
+      "id": "product_manager",
+      "name": "Product Manager",
+      "description": "Lead product development and strategy",
+      "required_skills": ["product_strategy", "user_research", "analytics", "communication"],
+      "average_salary": "$140,000",
+      "growth_rate": "10%",
+      "recommended_courses": ["PM101", "UX201", "AN301"]
+    },
+    {
+      "id": "ux_designer",
+      "name": "UX Designer",
+      "description": "Design user-centered products",
+      "required_skills": ["user_research", "interaction_design", "prototyping", "visual_design"],
+      "average_salary": "$95,000",
+      "growth_rate": "15%",
+      "recommended_courses": ["UX101", "ID201", "VD301"]
+    },
+    {
+      "id": "devops_engineer",
+      "name": "DevOps Engineer",
+      "description": "Manage deployment and infrastructure",
+      "required_skills": ["cloud_services", "ci_cd", "containerization", "monitoring"],
+      "average_salary": "$125,000",
+      "growth_rate": "21%",
+      "recommended_courses": ["DEV101", "CLOUD201", "MON301"]
+    }
+  ]
+}

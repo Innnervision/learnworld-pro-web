@@ -1,0 +1,90 @@
+{
+  "skill_trees": [
+    {
+      "id": "web_development",
+      "name": "Web Development",
+      "description": "Complete path to becoming a full-stack web developer",
+      "skills": [
+        {
+          "id": "html",
+          "name": "HTML",
+          "level": 1,
+          "prerequisites": []
+        },
+        {
+          "id": "css",
+          "name": "CSS",
+          "level": 1,
+          "prerequisites": ["html"]
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "level": 2,
+          "prerequisites": ["html", "css"]
+        },
+        {
+          "id": "react",
+          "name": "React",
+          "level": 3,
+          "prerequisites": ["javascript"]
+        },
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "level": 3,
+          "prerequisites": ["javascript"]
+        },
+        {
+          "id": "database",
+          "name": "Database",
+          "level": 2,
+          "prerequisites": []
+        },
+        {
+          "id": "api",
+          "name": "API Development",
+          "level": 3,
+          "prerequisites": ["javascript", "database"]
+        }
+      ]
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science",
+      "description": "Complete path to becoming a data scientist",
+      "skills": [
+        {
+          "id": "python",
+          "name": "Python",
+          "level": 1,
+          "prerequisites": []
+        },
+        {
+          "id": "statistics",
+          "name": "Statistics",
+          "level": 1,
+          "prerequisites": []
+        },
+        {
+          "id": "data_analysis",
+          "name": "Data Analysis",
+          "level": 2,
+          "prerequisites": ["python", "statistics"]
+        },
+        {
+          "id": "machine_learning",
+          "name": "Machine Learning",
+          "level": 3,
+          "prerequisites": ["python", "statistics", "data_analysis"]
+        },
+        {
+          "id": "deep_learning",
+          "name": "Deep Learning",
+          "level": 4,
+          "prerequisites": ["machine_learning"]
+        }
+      ]
+    }
+  ]
+}

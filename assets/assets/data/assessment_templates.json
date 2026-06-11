@@ -1,0 +1,54 @@
+{
+  "quiz_templates": [
+    {
+      "id": "multiple_choice",
+      "name": "Multiple Choice Quiz",
+      "description": "Standard multiple choice questions",
+      "default_time_limit": 30,
+      "default_max_attempts": 3,
+      "default_passing_score": 0.7,
+      "question_types": ["multiple_choice"]
+    },
+    {
+      "id": "true_false",
+      "name": "True/False Quiz",
+      "description": "True or false questions",
+      "default_time_limit": 15,
+      "default_max_attempts": 3,
+      "default_passing_score": 0.8,
+      "question_types": ["true_false"]
+    },
+    {
+      "id": "mixed",
+      "name": "Mixed Quiz",
+      "description": "Combination of different question types",
+      "default_time_limit": 45,
+      "default_max_attempts": 3,
+      "default_passing_score": 0.7,
+      "question_types": ["multiple_choice", "true_false", "fill_blank"]
+    }
+  ],
+  "assignment_templates": [
+    {
+      "id": "coding_project",
+      "name": "Coding Project",
+      "description": "Programming assignment",
+      "default_max_score": 100,
+      "submission_types": ["code", "documentation"]
+    },
+    {
+      "id": "research_paper",
+      "name": "Research Paper",
+      "description": "Written research assignment",
+      "default_max_score": 100,
+      "submission_types": ["document", "presentation"]
+    },
+    {
+      "id": "practical_exercise",
+      "name": "Practical Exercise",
+      "description": "Hands-on practical task",
+      "default_max_score": 100,
+      "submission_types": ["file", "screenshot", "video"]
+    }
+  ]
+}

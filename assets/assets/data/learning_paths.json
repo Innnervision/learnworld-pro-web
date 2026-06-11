@@ -1,0 +1,60 @@
+{
+  "learning_paths": [
+    {
+      "id": "beginner_programmer",
+      "name": "Beginner Programmer",
+      "description": "Start your journey in programming",
+      "duration_hours": 100,
+      "difficulty": "Beginner",
+      "courses": [
+        "intro_to_programming",
+        "programming_fundamentals",
+        "data_structures_basics"
+      ],
+      "skills_gained": ["problem_solving", "basic_coding", "algorithms"]
+    },
+    {
+      "id": "full_stack_developer",
+      "name": "Full Stack Developer",
+      "description": "Become a complete web developer",
+      "duration_hours": 300,
+      "difficulty": "Intermediate",
+      "courses": [
+        "html_css_basics",
+        "javascript_fundamentals",
+        "react_development",
+        "nodejs_backend",
+        "database_design"
+      ],
+      "skills_gained": ["frontend", "backend", "database", "api_development"]
+    },
+    {
+      "id": "data_analyst",
+      "name": "Data Analyst",
+      "description": "Learn to analyze and visualize data",
+      "duration_hours": 200,
+      "difficulty": "Intermediate",
+      "courses": [
+        "statistics_fundamentals",
+        "python_for_data",
+        "data_visualization",
+        "sql_basics"
+      ],
+      "skills_gained": ["data_analysis", "visualization", "sql", "statistics"]
+    },
+    {
+      "id": "machine_learning_engineer",
+      "name": "Machine Learning Engineer",
+      "description": "Build and deploy ML models",
+      "duration_hours": 400,
+      "difficulty": "Advanced",
+      "courses": [
+        "advanced_python",
+        "machine_learning_basics",
+        "deep_learning",
+        "ml_deployment"
+      ],
+      "skills_gained": ["ml_algorithms", "deep_learning", "model_deployment", "data_engineering"]
+    }
+  ]
+}

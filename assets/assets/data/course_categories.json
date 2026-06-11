@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "id": "programming",
+      "name": "Programming",
+      "icon": "programming.png",
+      "color": "#4CAF50",
+      "course_count": 2500,
+      "subcategories": ["Web Development", "Mobile Development", "Data Science", "Machine Learning", "DevOps"]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "icon": "mathematics.png",
+      "color": "#2196F3",
+      "course_count": 1800,
+      "subcategories": ["Algebra", "Calculus", "Statistics", "Geometry", "Number Theory"]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "icon": "science.png",
+      "color": "#9C27B0",
+      "course_count": 1500,
+      "subcategories": ["Physics", "Chemistry", "Biology", "Environmental Science", "Astronomy"]
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "icon": "business.png",
+      "color": "#FF9800",
+      "course_count": 2200,
+      "subcategories": ["Marketing", "Finance", "Management", "Entrepreneurship", "Economics"]
+    },
+    {
+      "id": "languages",
+      "name": "Languages",
+      "icon": "languages.png",
+      "color": "#E91E63",
+      "course_count": 1200,
+      "subcategories": ["English", "Spanish", "French", "German", "Mandarin"]
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "icon": "design.png",
+      "color": "#00BCD4",
+      "course_count": 900,
+      "subcategories": ["Graphic Design", "UI/UX Design", "Animation", "Fashion Design", "Interior Design"]
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing",
+      "icon": "marketing.png",
+      "color": "#F44336",
+      "course_count": 1100,
+      "subcategories": ["Digital Marketing", "Content Marketing", "Social Media", "SEO", "Email Marketing"]
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science",
+      "icon": "data_science.png",
+      "color": "#673AB7",
+      "course_count": 800,
+      "subcategories": ["Data Analysis", "Machine Learning", "Big Data", "Data Visualization", "Statistics"]
+    }
+  ]
+}
